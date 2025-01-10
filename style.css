@@ -56,8 +56,7 @@ main {
   height: 500px;
   display: flex;
   flex-direction: column;
-  padding: 45px;
-  /* TODO: add gap */
+  padding: 48px;
 }
 
 .category:first-child {
@@ -74,6 +73,40 @@ main {
 
 .content {
   margin-bottom: auto;
+}
+
+.content h1 {
+  font-family: "Big";
+  font-size: 36px;
+  color: var(--Very-light-gray);
+  text-transform: uppercase;
+}
+
+.content p {
+  color: var(--Transparent-white);
+}
+
+.category .button {
+  width: fit-content;
+  background-color: var(--Very-light-gray);
+  padding: 15px 30px;
+  border-radius: 25px;
+}
+
+.category .button a {
+  text-decoration: none;
+}
+
+.category:first-child .button a {
+  color: var(--Bright-orange);
+}
+
+.category:nth-child(2) .button a {
+  color: var(--Dark-cyan);
+}
+
+.category:last-child .button a {
+  color: var(--Very-dark-cyan);
 }
 
 /* Extra small devices (phones, 600px and down) */
