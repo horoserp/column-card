@@ -39,6 +39,38 @@ body {
   font-family: "Lexend";
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--Very-light-gray);
+}
+
+.wrapper {
+  display: flex;
+}
+
+.category {
+  width: 307px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  /* TODO: add gap */
+}
+
+.category:first-child {
+  background-color: var(--Bright-orange);
+}
+
+.category:nth-child(2) {
+  background-color: var(--Dark-cyan);
+}
+
+.category:last-child {
+  background-color: var(--Very-dark-cyan);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
