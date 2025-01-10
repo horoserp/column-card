@@ -1,0 +1,60 @@
+/* Universal Selector to remove default browser settings */
+* {
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url(./assets/fonts/LexendDeca-VariableFont_wght.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Big";
+  src: url(./assets/fonts/BigShouldersDisplay-VariableFont_wght.ttf);
+  font-weight: 700;
+}
+
+/* CSS Variables */
+:root {
+  /* Primary */
+  --Bright-orange: hsl(31, 77%, 52%);
+  --Dark-cyan: hsl(184, 100%, 22%);
+  --Very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  /* (paragraphs) */
+  --Transparent-white: hsla(0, 0%, 100%, 0.75);
+  /* (background, headings, buttons) */
+  --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: "Lexend";
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
