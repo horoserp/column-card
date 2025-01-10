@@ -1,6 +1,6 @@
 {
-    "name": "Stats Preview Card | FEM",
-    "short_name": "Stats Preview",
+    "name": "3-Column Card | FEM",
+    "short_name": "3-Column Card",
     "icons": [
       {
         "src": "https://horoserp.github.io/stats-preview/assets/icons/web-app-manifest-192x192.png",
@@ -17,15 +17,15 @@
     ],
     "screenshots": [
       {
-       "src": "https://horoserp.github.io/stats-preview/assets/images/desktop-screenshot.jpeg",
+       "src": "https://horoserp.github.io/column-card/assets/images/desktop-design.jpg",
         "sizes": "1440x800",
         "type": "image/png",
         "form_factor": "wide",
         "label": "Desktop Rating Component"
       },
       {
-        "src": "https://horoserp.github.io/stats-preview/assets/images/mobile-screenshot2.jpeg",
-         "sizes": "416x956",
+        "src": "https://horoserp.github.io/column-card/assets/images/mobile-design.jpg",
+         "sizes": "375x1502",
          "type": "image/png",
          "form_factor": "narrow",
          "label": "Mobile Rating Component"
@@ -34,7 +34,7 @@
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone",
-    "description": "Stats Preview Card",
+    "description": "A 3-column card to showcase vehicles",
     "start_url": ".",
     "id": "/assets/icons/",
     "orientation": "any"
