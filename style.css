@@ -61,6 +61,8 @@ main {
 
 .category:first-child {
   background-color: var(--Bright-orange);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .category:nth-child(2) {
@@ -69,27 +71,35 @@ main {
 
 .category:last-child {
   background-color: var(--Very-dark-cyan);
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 .content {
   margin-bottom: auto;
 }
 
+.content img {
+  margin-bottom: 34px;
+}
+
 .content h1 {
   font-family: "Big";
-  font-size: 36px;
+  font-size: 40px;
   color: var(--Very-light-gray);
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .content p {
   color: var(--Transparent-white);
+  line-height: 1.6;
 }
 
 .category .button {
   width: fit-content;
   background-color: var(--Very-light-gray);
-  padding: 15px 30px;
+  padding: 13px 30px;
   border-radius: 25px;
 }
 
