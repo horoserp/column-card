@@ -162,9 +162,11 @@ main {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
   .wrapper {
     flex-direction: column;
+    align-items: center;
   }
 
   .category {
@@ -185,6 +187,10 @@ main {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+  .category {
+    width: 80%;
+    padding: 48px 100px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
