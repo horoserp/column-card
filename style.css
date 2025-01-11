@@ -198,7 +198,21 @@ main {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .category {
     width: 70%;
-    padding: 48px 120px;
+    height: 300px;
+    padding: 40px;
+  }
+
+  .content img,
+  .content h1 {
+    margin-bottom: 35px;
+  }
+
+  .content h1 {
+    float: right;
+  }
+
+  .category .button {
+    align-self: flex-end;
   }
 }
 
