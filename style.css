@@ -163,6 +163,24 @@ main {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .category {
+    width: 327px;
+    height: 440px;
+  }
+
+  .category:first-child {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 12px;
+  }
+
+  .category:last-child {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 12px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
