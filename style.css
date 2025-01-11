@@ -119,6 +119,48 @@ main {
   color: var(--Very-dark-cyan);
 }
 
+@media (hover: hover) {
+  .category:first-child .button:hover {
+    background-color: var(--Bright-orange);
+  }
+
+  .category:nth-child(2) .button:hover {
+    background-color: var(--Dark-cyan);
+  }
+
+  .category:last-child .button:hover {
+    background-color: var(--Very-dark-cyan);
+  }
+
+  .category .button:hover {
+    border: 2px solid var(--Very-light-gray);
+  }
+
+  .category .button:hover a {
+    color: var(--Very-light-gray);
+  }
+}
+
+.category:first-child .button:active {
+  background-color: var(--Bright-orange);
+}
+
+.category:nth-child(2) .button:active {
+  background-color: var(--Dark-cyan);
+}
+
+.category:last-child .button:active {
+  background-color: var(--Very-dark-cyan);
+}
+
+.category .button:active {
+  border: 2px solid var(--Very-light-gray);
+}
+
+.category .button:active a {
+  color: var(--Very-light-gray);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
