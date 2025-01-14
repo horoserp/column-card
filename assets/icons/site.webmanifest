@@ -21,14 +21,14 @@
       "sizes": "1440x800",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Desktop Rating Component"
+      "label": "Desktop 3-Column Card"
     },
     {
       "src": "https://horoserp.github.io/column-card/assets/images/mobile-screenshot.jpeg",
         "sizes": "640x1467",
         "type": "image/png",
         "form_factor": "narrow",
-        "label": "Mobile Rating Component"
+        "label": "Mobile 3-Column Card"
       }
     ],
   "theme_color": "#ffffff",
