@@ -101,21 +101,18 @@ main {
   background-color: var(--Very-light-gray);
   padding: 13px 30px;
   border-radius: 25px;
-}
-
-.category .button a {
   text-decoration: none;
 }
 
-.category:first-child .button a {
+.category:first-child .button {
   color: var(--Bright-orange);
 }
 
-.category:nth-child(2) .button a {
+.category:nth-child(2) .button {
   color: var(--Dark-cyan);
 }
 
-.category:last-child .button a {
+.category:last-child .button {
   color: var(--Very-dark-cyan);
 }
 
@@ -136,7 +133,7 @@ main {
     border: 2px solid var(--Very-light-gray);
   }
 
-  .category .button:hover a {
+  .category .button:hover {
     color: var(--Very-light-gray);
   }
 }
@@ -157,7 +154,7 @@ main {
   border: 2px solid var(--Very-light-gray);
 }
 
-.category .button:active a {
+.category .button:active {
   color: var(--Very-light-gray);
 }
 
