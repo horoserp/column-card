@@ -118,44 +118,22 @@ main {
 }
 
 @media (hover: hover) {
-  .category:first-child .button:hover {
-    background-color: var(--Bright-orange);
-  }
-
-  .category:nth-child(2) .button:hover {
-    background-color: var(--Dark-cyan);
-  }
-
-  .category:last-child .button:hover {
-    background-color: var(--Very-dark-cyan);
+  .category .button:hover {
+    background-color: transparent;
   }
 
   .category .button:hover {
     border: 2px solid var(--Very-light-gray);
-  }
-
-  .category .button:hover {
     color: var(--Very-light-gray);
   }
 }
 
-.category:first-child .button:active {
-  background-color: var(--Bright-orange);
-}
-
-.category:nth-child(2) .button:active {
-  background-color: var(--Dark-cyan);
-}
-
-.category:last-child .button:active {
-  background-color: var(--Very-dark-cyan);
+.category .button:active {
+  background-color: transparent;
 }
 
 .category .button:active {
   border: 2px solid var(--Very-light-gray);
-}
-
-.category .button:active {
   color: var(--Very-light-gray);
 }
 
